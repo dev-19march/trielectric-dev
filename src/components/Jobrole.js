@@ -17,6 +17,7 @@ const Jobrole = () => {
               <div className="row w-100">
               <div class="row">
               <div className="col-10">
+                <div className="row">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-6">
                   <label class="d-block role mb-2 ">Role</label>
                   <span>Business Development Executive</span>
@@ -37,6 +38,12 @@ const Jobrole = () => {
                 </div>
               </div>
               </div>
+              <div className="col-2">
+<img src={dropdown} className="drop-down-icon" ></img>
+
+              </div>
+              </div>
+
               </div>
             </Accordion.Header>
             <Accordion.Body>
@@ -212,11 +219,11 @@ const Jobrole = () => {
                 </div>
               </div>
               </div>
-              </div>
               
-                <div className="col-6 col-sm-3">
-      <img src={dropdown} alt="Dropdown Icon" className="accordion-dropdown-icon" />
-    </div>
+              </div>
+   
+              
+  
             
             </Accordion.Header>
             <Accordion.Body>

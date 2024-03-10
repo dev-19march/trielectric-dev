@@ -5,6 +5,12 @@ import background from '../assets/images/cards-bg.svg'
 const Tricomp = () => {
   return (
     <div className="container mt-5">
+      <div className='row'>
+        <div className='col-sm-8 col-12'>
+        <h1 className='tricomp-title mb-4'>Lorem Ipsum is simply dummy text of the <span className='dummy-text'>Dummy text</span></h1>
+
+        </div>
+      </div>
       <div className="row">
         <div className="col-lg-4">
           <div className="row">

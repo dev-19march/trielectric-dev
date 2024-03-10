@@ -6,7 +6,7 @@ const Talented = () => {
     <div className='job-component'>
     <div className="my-job-component container-fluid">
       <div className='centered-div'>
-        <h1 className="heading text-center">We are looking for <span> <br></br> Talented People</span> </h1>
+        <h1 className="heading text-center mt-5">We are looking for <span> <br></br> Talented People</span> </h1>
       </div>
     </div>
   </div>

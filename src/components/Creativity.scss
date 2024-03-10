@@ -1,115 +1,107 @@
 .component-with-cards {
-    text-align: center;
-    padding: 20px;
-    position:relative;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  @media screen and (max-width: 992px) {
+    padding: 0px;
   }
-  
-  .header {
-    margin-bottom: 20px;
-  }
-  
-  .Creativity-heading {
-    font-size: 45px;
-    font-weight: 800;
-    line-height: 63px;
-    font-family: 'Kaisei Tokumin';
-    color: #0B335B;
+}
 
-    @media screen and (max-width: 568px) {
+.header {
+  margin-bottom: 20px;
+}
 
-  font-size: 30px;
-  line-height: 40px;      
-    }
+.Creativity-heading {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 63px;
+  font-family: "Kaisei Tokumin";
+  color: #0b335b;
 
+  @media screen and (max-width: 568px) {
+    font-size: 30px;
+    line-height: 40px;
   }
-  .Creativity-heading span{
-    color: #00F2B2;
-  }
-  
-  .Creativity-paragraph {
-    font-size: 20px;
-    font-weight: 400;
-    font-family: 'Inter';
+}
+.Creativity-heading span {
+  color: #00f2b2;
+}
 
-    @media screen and (max-width: 568px) {
+.Creativity-paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter";
 
-      font-size: 14px;
-        }
+  @media screen and (max-width: 568px) {
+    font-size: 14px;
   }
-  
-  .Creativity-cards-container {
-    display: flex;
-    justify-content: space-between;
+}
 
-    z-index: -1;
-  }
-  
-  .Creativity-card {
-   border: 1px solid #AFADAD;
-    text-align: left;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 0 10px;
-  }
-  .Creativity-card.right {
-    border: 1px solid #AFADAD;
-     text-align: right;
-     border-radius: 8px;
-     padding: 20px;
-     margin: 0 10px;
+.Creativity-cards-container {
+  display: flex;
+  justify-content: space-between;
 
+  z-index: -1;
+}
 
-     @media screen and (max-width: 568px) {
-      margin-top: 100px;
-      
-          
-          }
-   }
-  
-  .Creativity-card-heading {
-    font-size: 25px;
-    font-weight: 700;
-    color: #13B78C;
+.Creativity-card {
+  border: 1px solid #afadad;
+  text-align: left;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0 10px;
+}
+.Creativity-card.right {
+  border: 1px solid #afadad;
+  text-align: right;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0 10px;
+
+  @media screen and (max-width: 568px) {
+    margin-top: 100px;
   }
-  
-  .Creativity-card-paragraph {
-    font-size: 17px;
-    font-weight: 400;
-    font-family: 'Inter';
-  }
-  
-  .Creativity-center-image {
-  
-    top: 37%;
-    left: 42%;
+}
+
+.Creativity-card-heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: #13b78c;
+}
+
+.Creativity-card-paragraph {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Inter";
+}
+
+.Creativity-center-image {
+  top: 37%;
+  left: 42%;
+  position: absolute;
+  z-index: 1;
+  transform: translateX(-13%);
+  @media screen and (max-width: 568px) {
+    height: 34%;
+    width: 60%;
+    top: 40%;
+    left: 27%;
     position: absolute;
     z-index: 1;
-    transform: translateX(-13%);
-    @media screen and (max-width: 568px) {
-      height: 34%;
-      width: 60%;
-      top: 40%;
-      left: 27%;
-      position: absolute;
-      z-index: 1;
-    
-          
-              
-              }
+  }
+  @media screen and (max-width: 992px) {
+    top: 39%;
+  }
+}
+.Creativity-card-subheading {
+  margin-top: 94px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #13b78c;
+}
 
- 
-  }
-  
-  .Creativity-card-subheading {
-    margin-top: 94px;;
-    font-size: 25px;
-    font-weight: 700;
-    color: #13B78C;
-  }
-  
-  .Creativity-card-subtext {
-    font-size: 17px;
-    font-weight: 400;
-    font-family: 'Inter';
-  }
-  
+.Creativity-card-subtext {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Inter";
+}

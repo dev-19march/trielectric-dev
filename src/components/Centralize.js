@@ -8,7 +8,7 @@ const Centralize = () => {
     <div className="my-component container-fluid">
         <div className='centered-div'>
       <h1 className="heading text-center">Centralize, Optimize,  <br></br> <span>Revolutionize</span> </h1>
-      <p className="description text-center">Simplyfying Distributed Enery Management for a modern and efficient grid.</p>
+      <p className="description text-center">Simplyfying Distributed Enery Management for a modern and efficient Grid.</p>
      
       </div>
     </div>

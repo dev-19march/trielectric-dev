@@ -11,7 +11,7 @@ const Fourthsection = () => {
          <div className='container'>
        <div className='row'> 
     <div className="col-lg-6">
-      <img src={fourthbg} alt="Image" className="fourth-image" />
+      <img src={fourthbg} alt="Image" className="fourth-image mb-3" />
     </div>
     <div className="col-lg-6">
       <h2 className="fourth-heading">Lorem ipsum is Simply, <span> Dummy Text</span></h2>

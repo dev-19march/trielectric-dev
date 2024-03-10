@@ -7,7 +7,7 @@ const Creativity = () => {
     <div className="component-with-cards">
       <div className="container">
         <div className="row d-flex justify-content-between">
-          <div className="header">
+          <div className="header mt-5">
             <h2 className="Creativity-heading">
               Our approach <span>Creativity.</span>{' '}
             </h2>

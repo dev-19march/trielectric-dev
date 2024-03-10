@@ -4,9 +4,6 @@ import Share from "../assets/images/share.svg"
 import Slider from "react-slick";
 import BlogImageOne from "../assets/images/blog-bg.svg"
 import BlogImageTwo from "../assets/images/blog-bg1.svg"
-// import Upgrade from "../../assets/images/upgrade.png"
-// import Uncover from "../../assets/images/uncover.png"
-// import Mastering from "../../assets/images/mastering.png"
 import { Link } from "react-router-dom"
 function OurBlogs() {
     const settings = {

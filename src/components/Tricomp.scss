@@ -7,7 +7,7 @@
         padding-right: 15px;
       }
       > .col-lg-4:not(:last-child) {
-        margin-bottom: 30px; // Adjust spacing between columns
+        margin-bottom: 30px; 
       }
     }
     .card {
@@ -20,4 +20,18 @@
         background-color: #1AEEB6;
     }
   }
-  
+.tricomp-title{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Kaisei Tokumin';
+    @media screen and (max-width: 568px) {
+      font-size: 30px;;
+        }
+  }
+  .dummy-text{
+    color: #1AEEB6;
+
+    @media screen and (max-width: 568px) {
+      font-size: 30px;;
+        }
+  }
