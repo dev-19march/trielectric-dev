@@ -3,7 +3,6 @@ import './Navbar.scss';
 import logo from "../assets/images/t-logo.svg"
 import { useState } from 'react';
  import Offcanvas from 'react-bootstrap/Offcanvas';
-import Button from 'react-bootstrap/Button';
 import footerlogo from "../assets/images/footer-logo.png"
 
 
@@ -52,7 +51,7 @@ const Navbar = () => {
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>
           <a href="/">
-          <img src={footerlogo} alt="Logo" className="footer-logo" />
+          <img src={footerlogo} alt="Logo" className="canva-logo" />
           </a>
           </Offcanvas.Title>
         </Offcanvas.Header>

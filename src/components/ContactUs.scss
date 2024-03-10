@@ -142,18 +142,18 @@ flex-wrap: wrap;
         background-color: #0056b3;
       }
     }
-    &:after {
-      content: '';
-      background-image: url('../assets/images/submit.svg'); 
-      background-size: cover;
-      background-repeat: no-repeat;
-      position: absolute;
-      width: 20px; 
-      height: 20px; 
-      top: 50%;
-      right: 10px; 
+    // &:after {
+    //   content: '';
+    //   background-image: url('../assets/images/submit.svg'); 
+    //   background-size: cover;
+    //   background-repeat: no-repeat;
+    //   position: absolute;
+    //   width: 20px; 
+    //   height: 20px; 
+    //   top: 50%;
+    //   right: 10px; 
       
-    }
+    // }
     #attachments{
       text-align: center;
     }

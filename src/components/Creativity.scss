@@ -14,6 +14,13 @@
     line-height: 63px;
     font-family: 'Kaisei Tokumin';
     color: #0B335B;
+
+    @media screen and (max-width: 568px) {
+
+  font-size: 30px;
+  line-height: 40px;      
+    }
+
   }
   .Creativity-heading span{
     color: #00F2B2;
@@ -23,6 +30,11 @@
     font-size: 20px;
     font-weight: 400;
     font-family: 'Inter';
+
+    @media screen and (max-width: 568px) {
+
+      font-size: 14px;
+        }
   }
   
   .Creativity-cards-container {
@@ -45,6 +57,13 @@
      border-radius: 8px;
      padding: 20px;
      margin: 0 10px;
+
+
+     @media screen and (max-width: 568px) {
+      margin-top: 100px;
+      
+          
+          }
    }
   
   .Creativity-card-heading {
@@ -61,11 +80,24 @@
   
   .Creativity-center-image {
   
-    top: 150px;
-    left: 43%;
+    top: 37%;
+    left: 42%;
     position: absolute;
     z-index: 1;
     transform: translateX(-13%);
+    @media screen and (max-width: 568px) {
+      height: 34%;
+      width: 60%;
+      top: 40%;
+      left: 27%;
+      position: absolute;
+      z-index: 1;
+    
+          
+              
+              }
+
+ 
   }
   
   .Creativity-card-subheading {

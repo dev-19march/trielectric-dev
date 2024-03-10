@@ -1,6 +1,7 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import "./Jobrole.scss";
+import dropdown from '../assets/images/acc-drop.svg'
 
 const Jobrole = () => {
   return (
@@ -9,15 +10,19 @@ const Jobrole = () => {
         <div className="col-lg-12">
           <h1>Design</h1>
         </div>
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="-1">
           <Accordion.Item eventKey="0">
             <Accordion.Header>
               {" "}
               <div className="row w-100">
-                <div class="col-6 col-sm-3 ">
+              <div class="row">
+              <div className="col-10">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">
                   <label class="d-block role mb-2 ">Role</label>
                   <span>Business Development Executive</span>
                 </div>
+              
+                 
                 <div class="col-6 col-sm-3 ">
                   <label class="d-block role mb-2">Experience</label>
                   <span>Fresher/Experienced</span>
@@ -31,9 +36,11 @@ const Jobrole = () => {
                   <span>Delhi</span>
                 </div>
               </div>
+              </div>
+              </div>
             </Accordion.Header>
             <Accordion.Body>
-              <div className="col-lg-5">
+              <div className="col-lg-4">
               <h4>Business Development Executive</h4>
               </div>
              
@@ -69,7 +76,7 @@ const Jobrole = () => {
 
               </ul>
 
-              <strong>Requirements:</strong>
+             <p className="responsibility"><strong>Requirements:</strong></p> 
               <ul class="opening_list_order">
                 <li>
                   A Bachelors/Masters degree in Business or other relevant field.
@@ -91,31 +98,35 @@ const Jobrole = () => {
       <div className="row">
         <div className="col-lg-12">
         </div>
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="-1">
           <Accordion.Item eventKey="1">
             <Accordion.Header>
               {" "}
               <div className="row w-100">
+                <div className="row">
+                  <div className="col-10">
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
+                  <label class="d-block role mb-2 ">Role</label>
                   <span>Business Development Executive</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Experience</label>
+                  <span>Fresher/Experienced</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Vacancies</label>
+                  <span>01</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Location</label>
+                  <span>Delhi</span>
                 </div>
+              </div>
+              </div>
               </div>
             </Accordion.Header>
             <Accordion.Body>
-              <div className="col-lg-5">
+              <div className="col-lg-4">
               <h4>Business Development Executive</h4>
               </div>
              
@@ -151,7 +162,7 @@ const Jobrole = () => {
 
               </ul>
 
-              <strong>Requirements:</strong>
+              <p className="responsibility"><strong>Requirements:</strong></p> 
               <ul class="opening_list_order">
                 <li>
                   A Bachelors/Masters degree in Business or other relevant field.
@@ -175,31 +186,41 @@ const Jobrole = () => {
         <div className="col-lg-12">
           <h1>Software Development</h1>
         </div>
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="-1">
           <Accordion.Item eventKey="2">
             <Accordion.Header>
+    
               {" "}
               <div className="row w-100">
+                <div className="row">
+                  <div className="col-10">
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
+                  <label class="d-block role mb-2 ">Role</label>
                   <span>Business Development Executive</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Experience</label>
+                  <span>Fresher/Experienced</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Vacancies</label>
+                  <span>01</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Location</label>
+                  <span>Delhi</span>
                 </div>
               </div>
+              </div>
+              </div>
+              
+                <div className="col-6 col-sm-3">
+      <img src={dropdown} alt="Dropdown Icon" className="accordion-dropdown-icon" />
+    </div>
+            
             </Accordion.Header>
             <Accordion.Body>
-              <div className="col-lg-5">
+              <div className="col-lg-4">
               <h4>Business Development Executive</h4>
               </div>
              
@@ -234,7 +255,7 @@ const Jobrole = () => {
 
               </ul>
 
-              <strong>Requirements:</strong>
+              <p className="responsibility"><strong>Requirements:</strong></p> 
               <ul class="opening_list_order">
                 <li>
                   A Bachelors/Masters degree in Business or other relevant field.
@@ -256,31 +277,35 @@ const Jobrole = () => {
       <div className="row mb-2">
         <div className="col-lg-12">
         </div>
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="-1">
           <Accordion.Item eventKey="3">
             <Accordion.Header>
               {" "}
               <div className="row w-100">
+                <div className="row">
+                  <div className="col-10">
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
+                  <label class="d-block role mb-2 ">Role</label>
                   <span>Business Development Executive</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Experience</label>
+                  <span>Fresher/Experienced</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Vacancies</label>
+                  <span>01</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Location</label>
+                  <span>Delhi</span>
                 </div>
+              </div>
+              </div>
               </div>
             </Accordion.Header>
             <Accordion.Body>
-              <div className="col-lg-5">
+              <div className="col-lg-4">
               <h4>Business Development Executive</h4>
               </div>
              
@@ -316,7 +341,7 @@ const Jobrole = () => {
 
               </ul>
 
-              <strong>Requirements:</strong>
+              <p className="responsibility"><strong>Requirements:</strong></p> 
               <ul class="opening_list_order">
                 <li>
                   A Bachelors/Masters degree in Business or other relevant field.
@@ -338,31 +363,35 @@ const Jobrole = () => {
       <div className="row mb-2">
         <div className="col-lg-12">
         </div>
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="-1">
           <Accordion.Item eventKey="4">
             <Accordion.Header>
               {" "}
               <div className="row w-100">
+              <div className="row">
+                <div className="col-10">
                 <div class="col-6 col-sm-3 ">
                   <label class="d-block role mb-2 ">Role</label>
                   <span>Business Development Executive</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Experience</label>
+                  <span>Fresher/Experienced</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Vacancies</label>
+                  <span>01</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Location</label>
+                  <span>Delhi</span>
                 </div>
+              </div>
+              </div>
               </div>
             </Accordion.Header>
             <Accordion.Body>
-              <div className="col-lg-5">
+              <div className="col-lg-4">
               <h4>Business Development Executive</h4>
               </div>
              
@@ -398,7 +427,7 @@ const Jobrole = () => {
 
               </ul>
 
-              <strong>Requirements:</strong>
+              <p className="responsibility"><strong>Requirements:</strong></p> 
               <ul class="opening_list_order">
                 <li>
                   A Bachelors/Masters degree in Business or other relevant field.
@@ -421,31 +450,35 @@ const Jobrole = () => {
       <div className="row mb-2">
         <div className="col-lg-12">
         </div>
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="-1">
           <Accordion.Item eventKey="5">
             <Accordion.Header>
               {" "}
               <div className="row w-100">
+                <div className="row">
+                  <div className="col-10">
                 <div class="col-6 col-sm-3 ">
                   <label class="d-block role mb-2 ">Role</label>
                   <span>Business Development Executive</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Experience</label>
+                  <span>Fresher/Experienced</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Vacancies</label>
+                  <span>01</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Location</label>
+                  <span>Delhi</span>
                 </div>
+              </div>
+              </div>
               </div>
             </Accordion.Header>
             <Accordion.Body>
-              <div className="col-lg-5">
+              <div className="col-lg-4">
               <h4>Business Development Executive</h4>
               </div>
              
@@ -481,7 +514,7 @@ const Jobrole = () => {
 
               </ul>
 
-              <strong>Requirements:</strong>
+              <p className="responsibility"><strong>Requirements:</strong></p> 
               <ul class="opening_list_order">
                 <li>
                   A Bachelors/Masters degree in Business or other relevant field.
@@ -503,31 +536,37 @@ const Jobrole = () => {
       <div className="row">
         <div className="col-lg-12">
         </div>
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="-1">
           <Accordion.Item eventKey="6">
             <Accordion.Header>
               {" "}
               <div className="row w-100">
+                <div className="row">
+                  <div className="col-10">
                 <div class="col-6 col-sm-3 ">
                   <label class="d-block role mb-2 ">Role</label>
                   <span>Business Development Executive</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Experience</label>
+                  <span>Fresher/Experienced</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Vacancies</label>
+                  <span>01</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Location</label>
+                  <span>Delhi</span>
                 </div>
+              </div>
+              </div>
               </div>
             </Accordion.Header>
             <Accordion.Body>
-              <div className="col-lg-5">
+            <div className="accordion-content">
+
+              <div className="col-lg-4">
               <h4>Business Development Executive</h4>
               </div>
              
@@ -563,7 +602,7 @@ const Jobrole = () => {
 
               </ul>
 
-              <strong>Requirements:</strong>
+              <p className="responsibility"><strong>Requirements:</strong></p> 
               <ul class="opening_list_order">
                 <li>
                   A Bachelors/Masters degree in Business or other relevant field.
@@ -578,6 +617,7 @@ const Jobrole = () => {
                 
                 
               </div>
+</div>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
@@ -585,37 +625,41 @@ const Jobrole = () => {
       </div>
       
       
-      <div className="row mt-5">
+      <div className="row mt-5 mb-5">
         <div className="col-lg-12">
         </div>
         <div className="col-lg-12">
           <h1>Customer Access</h1>
         </div>
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="-1">
           <Accordion.Item eventKey="7">
             <Accordion.Header>
               {" "}
-              <div className="row w-100">
+              <div className="row w-100 mb-2">
+                <div className="row">
+                  <div className="col-10">
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2 ">Role</label>
+                  <span className="role-description">Business Development Executive</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Experience</label>
+                  <span>Fresher/Experienced</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Vacancies</label>
+                  <span>01</span>
                 </div>
                 <div class="col-6 col-sm-3 ">
-                  <label class="d-block role mb-2">Role</label>
-                  <span>Business Development Executive</span>
+                  <label class="d-block role mb-2">Location</label>
+                  <span>Delhi</span>
                 </div>
+              </div>
+              </div>
               </div>
             </Accordion.Header>
             <Accordion.Body>
-              <div className="col-lg-5">
+              <div className="col-lg-4">
               <h4>Business Development Executive</h4>
               </div>
              
@@ -651,7 +695,7 @@ const Jobrole = () => {
 
               </ul>
 
-              <strong>Requirements:</strong>
+              <p className="responsibility"><strong>Requirements:</strong></p> 
               <ul class="opening_list_order">
                 <li>
                   A Bachelors/Masters degree in Business or other relevant field.

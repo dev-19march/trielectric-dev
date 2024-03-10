@@ -3,6 +3,12 @@
     margin-top: 80px;
     padding: 120px;
     background: linear-gradient(to right, #0B335B, #0B1B2B);
+
+    @media screen and (max-width: 568px) {
+      padding:20px;
+      
+          
+          }
   }
   
   .fourth-left-column {
@@ -23,6 +29,13 @@
     font-family: 'Kaisei Tokumin';
     color: #ffffff;
     margin-bottom: 10px;
+
+    @media screen and (max-width: 568px) {
+      font-size: 25px;
+      line-height: 35px;
+      
+          
+          }
   }
   
   .fourth-heading span {
@@ -36,10 +49,21 @@
     color: #ffffff;
     font-family: 'Inter', sans-serif;
     margin-bottom: 10px; 
+    @media screen and (max-width: 568px) {
+      font-size: 14px;
+      line-height: 20px;
+      
+          
+          }
   }
   
   .fourth-image {
     width: 100%;
     height: auto;
+    @media screen and (max-width: 568px) {
+      width: 90%;
+      
+          
+          }
   }
   

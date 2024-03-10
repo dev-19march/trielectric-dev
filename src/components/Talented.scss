@@ -3,12 +3,12 @@
     background: linear-gradient(to right, #0B335B, #0B1B2B) !important;
     display: flex;
     justify-content: center;
-    padding-top: 50px; /* Adjust the top padding */
+    padding-top: 50px;
   }
   
   .my-job-component {
     width: 100%;
-    max-width: 800px; /* Adjust the maximum width */
+    max-width: 800px; 
   }
   
   .centered-div {
@@ -19,6 +19,10 @@
     font-size: 60px;
     color: #ffffff;
     font-family: 'Kaisei Tokumin';
+
+    @media screen and (max-width: 568px) {
+     font-size: 30px;
+    }
   }
   
   .heading span {

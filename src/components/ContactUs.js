@@ -10,7 +10,7 @@ const ContactUs = () => {
       fileInputRef.current.click();
     }
     return (
-        <div className='contactus mt-5'>
+        <div className='contactus'>
         <div className='container'>
   <div className="contact-form">
   <div className='row'>
@@ -21,7 +21,7 @@ const ContactUs = () => {
         <p>Don’t hesitate to contact us, we’d love to hear your story.</p>
       </div>
       </div>
-      <div className='col-lg-7 col-12 mt-5'>
+      <div className='col-lg-7 col-12'>
       <form>
       
         <div className="form-group">

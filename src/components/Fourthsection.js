@@ -10,10 +10,10 @@ const Fourthsection = () => {
     <div className="image-with-content">
          <div className='container'>
        <div className='row'> 
-    <div className="fourth-left-column">
+    <div className="col-lg-6">
       <img src={fourthbg} alt="Image" className="fourth-image" />
     </div>
-    <div className="fourth-right-column">
+    <div className="col-lg-6">
       <h2 className="fourth-heading">Lorem ipsum is Simply, <span> Dummy Text</span></h2>
       <p className="fourth-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore </p>
       <p className="fourth-paragraph">Ut enim ad minim veniam, quis nostrud exercitation </p>
