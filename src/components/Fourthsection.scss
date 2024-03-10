@@ -1,0 +1,45 @@
+.image-with-content {
+    display: flex;
+    margin-top: 80px;
+    padding: 120px;
+    background: linear-gradient(to right, #0B335B, #0B1B2B);
+  }
+  
+  .fourth-left-column {
+    flex: 1;
+    padding: 57px;
+  }
+  
+  .fourth-right-column {
+    flex: 1;
+    padding-left: 20px; 
+    margin-top: 50px;
+  }
+  
+  .fourth-heading {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 63px;
+    font-family: 'Kaisei Tokumin';
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .fourth-heading span {
+    color: #00F2B2;
+  }
+  
+  .fourth-paragraph {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 10px; 
+  }
+  
+  .fourth-image {
+    width: 100%;
+    height: auto;
+  }
+  

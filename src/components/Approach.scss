@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+
+.two-column-layout {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-column {
+    flex: 1;
+  }
+  .approach-container{
+  @media screen and (max-width: 568px) {
+    padding:  20px;
+      }
+    }
+  
+  .card {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .appraoch-heading {
+    font-size: 40px;
+    font-weight: 400;
+    color: #0B335B;
+    font-family: 'Kaisei Tokumin';
+
+    @media screen and (max-width: 568px) {
+      font-size: 25px;
+        }
+  }
+  .appraoch-heading span{
+    font-weight: 700;
+    color: #00F2B2;
+}
+  
+  .appraoch-paragraph {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    @media screen and (max-width: 568px) {
+      font-size:  12px;
+        }
+  
+  }
+  
+  .appraoch-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .appraoch-description {
+    font-size: 14px;
+  }
+  .appraoch-card{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+
+    @media screen and (max-width: 568px) {
+      margin-top:12px;
+        }
+  
+  }
+  

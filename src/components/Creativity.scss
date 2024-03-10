@@ -1,0 +1,83 @@
+.component-with-cards {
+    text-align: center;
+    padding: 20px;
+    position:relative;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .Creativity-heading {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 63px;
+    font-family: 'Kaisei Tokumin';
+    color: #0B335B;
+  }
+  .Creativity-heading span{
+    color: #00F2B2;
+  }
+  
+  .Creativity-paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter';
+  }
+  
+  .Creativity-cards-container {
+    display: flex;
+    justify-content: space-between;
+
+    z-index: -1;
+  }
+  
+  .Creativity-card {
+   border: 1px solid #AFADAD;
+    text-align: left;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 10px;
+  }
+  .Creativity-card.right {
+    border: 1px solid #AFADAD;
+     text-align: right;
+     border-radius: 8px;
+     padding: 20px;
+     margin: 0 10px;
+   }
+  
+  .Creativity-card-heading {
+    font-size: 25px;
+    font-weight: 700;
+    color: #13B78C;
+  }
+  
+  .Creativity-card-paragraph {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Inter';
+  }
+  
+  .Creativity-center-image {
+  
+    top: 150px;
+    left: 43%;
+    position: absolute;
+    z-index: 1;
+    transform: translateX(-13%);
+  }
+  
+  .Creativity-card-subheading {
+    margin-top: 94px;;
+    font-size: 25px;
+    font-weight: 700;
+    color: #13B78C;
+  }
+  
+  .Creativity-card-subtext {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Inter';
+  }
+  

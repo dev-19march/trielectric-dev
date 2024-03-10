@@ -1,0 +1,23 @@
+.container {
+    .row {
+      margin-left: -15px;
+      margin-right: -15px;
+      > .col-lg-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      > .col-lg-4:not(:last-child) {
+        margin-bottom: 30px; // Adjust spacing between columns
+      }
+    }
+    .card {
+        border: none;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .card.first-card{
+        background-color: #1AEEB6;
+    }
+  }
+  

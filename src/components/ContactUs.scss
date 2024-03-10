@@ -1,0 +1,161 @@
+.contactus{
+  
+    background: linear-gradient(to right, #0B335B, #0B1B2B);
+    padding: 30px;
+
+    @media screen and (max-width: 568px) {
+      padding: 20px;
+        }
+}
+
+.contact-form {
+  margin-top: 40px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px; 
+
+  .contact-details {
+   
+    padding-right: 20px;
+
+    h2 {
+      font-size: 60px;
+      font-weight: 800;
+      font-family: 'Kaisei Tokumin';
+    
+      margin-bottom: 10px;
+      color: #ffffff;
+
+      @media screen and (max-width: 568px) {
+font-size: 30px;
+
+    
+    }
+  }
+    h2 span{
+      color: #00F2B2;
+
+    }
+
+    p {
+      font-size: 25px;
+      font-weight: 400;
+      font-family: 'Inter';
+      color: #ffffff;
+    }
+  }
+
+  form {
+    flex: 2;
+
+    .form-group {
+      margin-bottom: 20px;
+
+      label {
+        display: block;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Inter';
+        color: #ffffff;
+        margin-bottom: 5px;
+      }
+      .custom-file-input {
+        background-color: #ffffff;
+        color: #000000;
+        text-align: center;
+        border: none;
+        padding: 15px 20px;
+        font-size: 13px;
+        font-weight: 500;
+        font-family: 'Inter';
+        border-radius: 7px;
+        cursor: pointer;
+        user-select: none; 
+  
+      
+      }
+      .custom-file-input span{
+        color: #00F2B2;
+
+      }
+  
+      input[type='file']::-webkit-file-upload-button {
+        display: none;
+      }
+      input[type='text'],
+      input[type='email'],
+      textarea,
+      input[type='file'] {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 7px;
+      }
+
+      textarea {
+        height: 100px;
+      }
+
+      input[type='file'] {
+        padding: 8px 0;
+      }
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+        @media screen and (max-width: 568px) {
+display: flex;
+flex-wrap: wrap;
+  }
+
+      .form-field {
+        width: 48%; 
+
+
+        @media screen and (max-width: 568px) {
+             margin-top: 10px;
+              width: 100%;
+            
+      }
+    }
+  }
+
+    button[type='submit'] {
+      background-color: #00F2B2;
+      color:#000000;
+      text-align: center;
+      border: none;
+      padding: 12px 40px;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: 'Inter';
+      border-radius: 7px;
+      cursor: pointer;
+      position: relative;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+    &:after {
+      content: '';
+      background-image: url('../assets/images/submit.svg'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 20px; 
+      height: 20px; 
+      top: 50%;
+      right: 10px; 
+      
+    }
+    #attachments{
+      text-align: center;
+    }
+  }
+}

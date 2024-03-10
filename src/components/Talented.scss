@@ -1,0 +1,27 @@
+.job-component {
+    height: calc(100vh - 60px);
+    background: linear-gradient(to right, #0B335B, #0B1B2B) !important;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px; /* Adjust the top padding */
+  }
+  
+  .my-job-component {
+    width: 100%;
+    max-width: 800px; /* Adjust the maximum width */
+  }
+  
+  .centered-div {
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 60px;
+    color: #ffffff;
+    font-family: 'Kaisei Tokumin';
+  }
+  
+  .heading span {
+    color: #00F2B2;
+  }
+  

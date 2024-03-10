@@ -1,0 +1,99 @@
+
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc; 
+  }
+  
+  .footer-section {
+    margin-bottom: 30px;
+  }
+  
+  .footer-logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .footer-heading {
+    font-size: 18px;
+    color: #333;
+   
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+
+    li {
+        margin-bottom: 10px;
+    
+        a {
+          color: #333;
+          text-decoration: none !important; 
+        }
+      }
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-contact-text {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .footer-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer-button:hover {
+    background-color: #0056b3;
+  }
+ 
+  .footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px; 
+    font-size: 14px;
+    border-top: 1px solid grey;
+  }
+  
+  .footer-company-name {
+    color: #333;
+  }
+  
+  .footer-links-bottom {
+    display: flex;
+  }
+  
+  .footer-links-bottom a {
+    margin-right: 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  

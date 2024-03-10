@@ -1,75 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 
-
-
-.my-home-component{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 60px);
-    background: linear-gradient(to right, #0B335B, #0B1B2B);
+.my-home-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+  background: linear-gradient(to right, #0B335B, #0B1B2B);
   position: relative;
-    z-index: 1;
+  z-index: 1;
 }
 
 .my-component {
-    position: relative; 
-    padding: 20px 0;
-   
+  position: relative;
+  padding: 20px 0;
+  @media screen and (max-width: 568px) {
+padding: 20px;
+  }
 
-    &:before {
-        content: "";
-        position: absolute;
-        top: -12%;
-        left: 237px;
-        width: 522px;
-        height: 508px;
-        background-image: url('../assets/images/bg.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: -1;
-        background-position: 100% 100%;
-    }
 
-    
-    .heading {
-      font-size: 70px;
-      font-weight: 500;
-      margin-bottom: 20px;
-      color: #ffffff;
-      font-family: 'Kaisei Tokumin';
+  &:before {
+    content: "";
+    position: absolute;
+    top: -12%;
+    left: 237px;
+    width: 522px;
+    height: 508px;
+    background-image: url('../assets/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-position: 100% 100%;
+  }
 
-    }
-    .heading span{
-        color: #00F2B2;
-    }
-    
-    .description {
-      font-size: 18px;
-      color: #ffffff;
-      margin-bottom: 30px;
-      font-family: 'Inter', sans-serif;
-
-    }
+  .heading {
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Kaisei Tokumin';
   
-    
-    .points {
+    @media screen and (max-width: 568px) {
+      font-size: 35px;
+    }
+  }
   
-      font-family: 'Inter', sans-serif;
-      
-      .point {
-        padding: 0 10px;
-        font-size: 16px;
-        margin-bottom: 10px;
-        color: #ffffff;
-        // border-right: 2px solid #ccc;
-        padding: 8px 15px;
-        
-        &:not(:last-child) {
-          margin-right: 10px;
-        }
+  .heading span {
+    color: #00F2B2;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+  
+    @media screen and (max-width: 568px) {
+      font-size: 14px;
+    }
+  }
+  
+
+  .points {
+    font-family: 'Inter', sans-serif;
+
+    .point {
+      padding: 0 10px;
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: #ffffff;
+      padding: 8px 15px;
+
+      &:not(:last-child) {
+        margin-right: 10px;
       }
     }
   }
- 
+}
+
+@media screen and (max-width: 568px) {
+  .my-component:before {
+    content: "";
+    position: absolute;
+    top: -5%;
+    left: 53px;
+    width: 209px;
+    height: 201px;
+    background-image: url('../assets/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-position: 100% 100%;
+  }
+
+  .offcanvas-body, .navbar-items {
+    list-style-type: none;
+    margin: 12px;
+    padding: 0;
+    
+    .navbar-item {
+      margin-bottom: 10px;
+      
+      a {
+        display: block; 
+        padding: 10px; 
+        color: black;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+    }
+  }
+
+  .navbar-buttons {
+    margin-top: 10px; 
+    
+    button {
+      display: block; 
+      margin-left: 19px;
+      margin-top: 10px; 
+      transition: background-color 0.3s ease; 
+      background-color: blue !important; 
+      border: 1px solid #ffff; 
+      color: #fff; 
+          
+      &:hover {
+        background-color: #00F2B2;
+        color: black; 
+      }
+    }
+  }
+}
