@@ -15,6 +15,13 @@
   align-items: flex-start;
   padding: 0 20px; 
 
+  @media screen and (max-width: 568px) {
+ margin-top: 0px;
+    
+    
+        
+        }
+
   .contact-details {
    
     padding-right: 20px;
@@ -29,6 +36,7 @@
 
       @media screen and (max-width: 568px) {
 font-size: 30px;
+
 
     
     }
@@ -125,37 +133,41 @@ flex-wrap: wrap;
     }
   }
 
-    button[type='submit'] {
-      background-color: #00F2B2;
-      color:#000000;
-      text-align: center;
-      border: none;
-      padding: 12px 40px;
-      font-size: 15px;
-      font-weight: 500;
-      font-family: 'Inter';
-      border-radius: 7px;
-      cursor: pointer;
-      position: relative;
+  .submit-button {
+    background-color: #00F2B2;
+    color: #000000;
+    text-align: center;
+    border: none;
+    padding: 12px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Inter';
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
 
-      &:hover {
-        background-color: #0056b3;
-      }
+    &:hover {
+      background: linear-gradient(to right, #0B335B, #0B1B2B);
+      color: #ffffff;
     }
-    // &:after {
-    //   content: '';
-    //   background-image: url('../assets/images/submit.svg'); 
-    //   background-size: cover;
-    //   background-repeat: no-repeat;
-    //   position: absolute;
-    //   width: 20px; 
-    //   height: 20px; 
-    //   top: 50%;
-    //   right: 10px; 
-      
-    // }
+  }
+  
+  .button-icon {
+    margin-right: 10px; 
+  }
+  
+  .button-text {
+    flex: 1; 
+  }
+  
+     
+
+  
+   }
+   
     #attachments{
       text-align: center;
     }
   }
-}
+

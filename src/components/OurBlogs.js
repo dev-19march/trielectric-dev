@@ -42,7 +42,7 @@ function OurBlogs() {
 
                                             <div className="blog-card">
                                                 <div className="blog-bg-image">
-                                                    <img src ={BlogImageOne} alt="blog-image"/>
+                                                    <img src ={BlogImageOne} alt="blog"/>
                                                 </div>
                                                 <div class="post-description">
                                                     <div class="share-date"><span>Dec 11, 2023 10 min read</span><div className="share-icon-container"><img src={Share} alt="share-icon" /></div></div>
@@ -55,7 +55,7 @@ function OurBlogs() {
                                             <Link to="https://www.futuretayari.com/blogs">
                                             <div className="blog-card">
                                             <div className="blog-bg-image">
-                                                    <img src ={BlogImageTwo} alt="blog-image" />
+                                                    <img src ={BlogImageTwo} alt="blog" />
                                                 </div>
                                                 <div class="post-description">
                                                     <div class="share-date"><span>Dec 11, 2023 15 min read</span><div className="share-icon-container"><img src={Share} alt="share-icon" /></div></div>
@@ -68,7 +68,7 @@ function OurBlogs() {
                                         <div className="bolg-card-space">
                                             <div className="blog-card">
                                                 <div className="blog-bg-image">
-                                                    <img src ={BlogImageOne} alt="blog-image" />
+                                                    <img src ={BlogImageOne} alt="blog" />
                                                 </div>
                                                 <div class="post-description">
                                                     <div class="share-date"><span>Apr 19, 2023 15 min read</span><div className="share-icon-container"><img src={Share}  alt="share-icon" /></div></div>
@@ -79,7 +79,7 @@ function OurBlogs() {
                                         <div className="bolg-card-space">
                                             <div className="blog-card">
                                                 <div className="blog-bg-image">
-                                                    <img src ={BlogImageTwo} alt="blog-image" />
+                                                    <img src ={BlogImageTwo} alt="blog" />
                                                 </div>
                                                 <div class="post-description">
                                                     <div class="share-date"><span>Mar 13, 2023 20 min read</span><div className="share-icon-container"><img src={Share}  alt="share-icon" /></div></div>

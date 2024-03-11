@@ -14,12 +14,30 @@ h4{
     margin-bottom: 28px;
     text-align: right;
     padding: 10px;
+
+    @media screen and (max-width: 576px) {
+        font-size: 14px;
+        text-align: left;
+    }
 }
 .role{
     font-size: 20px;
     font-weight: 600;
     font-family: 'Inter';
     color: #0B335B;
+
+    @media screen and (max-width: 576px) {
+        font-size: 14px;
+       
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 14px;
+        text-align: left;
+    }
+    @media screen and (max-width: 992px) {
+        font-size: 14px;
+        text-align: left;
+    }
 }
 
 
@@ -35,7 +53,7 @@ margin-left: 10px;
 }
 .text-end{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 }
 .apply-now{
     background-color: #13B78C;
@@ -65,4 +83,13 @@ padding:21px 50px;
 }
 .drop-down-icon{
     padding-right: 20px;
+}
+.role-description{
+    @media screen and (max-width: 576px) {
+      font-size: 12px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
+      }
 }

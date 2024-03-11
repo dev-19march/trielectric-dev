@@ -1,6 +1,6 @@
 import React from 'react';
 import './Creativity.scss';
-import trilogo from '../assets/images/creativity.svg';
+import trilogo from '../assets/images/creativity1.svg';
 
 const Creativity = () => {
   return (
@@ -32,7 +32,7 @@ const Creativity = () => {
           <div className="col-lg-2 d-flex align-items-center justify-content-center">
             <img
               src={trilogo}
-              alt="Image"
+              alt="logo"
               className="Creativity-center-image"
             />
           </div>

@@ -9,6 +9,11 @@
   background: linear-gradient(to right, #0B335B, #0B1B2B);
   position: relative;
   z-index: 1;
+
+  @media screen and (max-width: 568px) {
+    height: calc(50vh - 60px);
+  }
+    
 }
 
 .my-component {

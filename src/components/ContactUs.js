@@ -1,6 +1,7 @@
 import React from 'react';
 import './ContactUs.scss'
 import { useRef } from 'react';
+import submit from "../assets/images/submit.svg"
 
 const ContactUs = () => {
   
@@ -15,7 +16,7 @@ const ContactUs = () => {
   <div className="contact-form">
   <div className='row'>
 
-    <div className='col-lg-5 col-12 mt-5'>
+    <div className="col-lg-5 col-12">
       <div className="contact-details">
         <h2>Drop Us a <br></br> <span>Line !</span> </h2>
         <p>Don’t hesitate to contact us, we’d love to hear your story.</p>
@@ -53,8 +54,10 @@ const ContactUs = () => {
               style={{ display: 'none' }}
             />
           </div>
-        <button type="submit">Submit</button>
-      </form>
+          <button type="submit" class="submit-button">
+  <img src={submit} alt="Submit" className="button-icon"></img> 
+  <span class="button-text">Submit</span>
+</button>      </form>
       </div>
       </div>
     </div>

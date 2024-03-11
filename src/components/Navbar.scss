@@ -2,7 +2,7 @@
   background: linear-gradient(to right, #0b335b, #0b1b2b);
   color: #fff;
   padding: 10px 0;
-  height: 60px;
+  height: 72px;
   position: relative;
 
   .container {
@@ -79,7 +79,8 @@
   position: absolute;
   bottom: 0;
   left: 123px;
-  top: 114%;
+  top: 100%;
+  z-index: 2;
 
 
   @media screen and (max-width: 568px) {
@@ -93,30 +94,33 @@
   }
 
   @media screen and (max-width: 996px) {
-    left: 39px;
+    left: 34px;
 
   }
 }
 
 .navbar::after {
-  content: "•";
+  content: "";
   display: block;
-  color: #00f2b2;
+  background: #00f2b2;
   position: absolute;
-  bottom: -6px;
-  left: 117px;
-  top: 90%;
-  font-size: 20px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  bottom: -3px;
+  left: 121px;
+  top: auto;
+  z-index: 2;
   
 
   @media screen and (max-width: 568px) {
     left: 36px;
-    top: 87%;
+    top: 97%;
    
   }
 
   @media screen and (max-width: 996px) {
-    left: 36px;
+    left: 29px;
   }
 }
 
@@ -151,12 +155,15 @@
   .navbar-buttons {
     button {
       margin-left: 10px;
+      background: linear-gradient(to right, #0B335B, #0B1B2B);
+
       transition: background-color 0.3s ease;
       border: 1px solid #ffff;
       color: #fff;
 
       &:hover {
         background-color: #00f2b2 !important;
+        color: #ffffff !important;
       }
     }
   }
@@ -181,6 +188,8 @@
 
   .navbar-buttons button {
     margin-left: 10px;
+    background: linear-gradient(to right, #0B335B, #0B1B2B);
+
     transition: background-color 0.3s ease;
     border: 1px solid #ffff;
     color: #fff;

@@ -4,13 +4,29 @@
     padding: 120px;
     background: linear-gradient(to right, #0B335B, #0B1B2B);
 
+    // position:absolute;
+
+ 
+
     @media screen and (max-width: 568px) {
       padding:20px;
       
           
           }
   }
-  
+//   .image-with-content::before {
+//     content: "";
+//     display: block;
+//     background-image: url('../assets/images/Laptop-bg.svg'); 
+//     background-size: cover; 
+//     background-position: center; 
+//     position: absolute;
+//     height: 100px;
+//     width: 100px; 
+//     top: 0; 
+//     left: 0; 
+//     z-index: 1;
+// }
   .fourth-left-column {
     flex: 1;
     padding: 57px;
@@ -66,4 +82,3 @@
           
           }
   }
-  

@@ -9,6 +9,21 @@
     margin-top: 80px; 
     height: 100vh;
 
+    @media screen and (max-width: 568px) {
+      margin-top: 0px; 
+      height: 50vh;
+
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-top: 0px; 
+      height: 50vh;
+
+    }
+
+
+      
+
   
     .heading {
       font-size: 45px;

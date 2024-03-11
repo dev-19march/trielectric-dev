@@ -12,5 +12,7 @@ code {
   background-color: #F5F5F5;
 }
 
-
+.accordion-button::after{
+  display: none;
+}
 

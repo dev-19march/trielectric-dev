@@ -12,7 +12,7 @@ const Navbar = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
   return (
-    <nav className="navbar p-3">
+    <nav className="navbar px-3 py-0">
       <div className="container">
         <div className='row w-100'>
         <div className="col-lg-3 col-6">
